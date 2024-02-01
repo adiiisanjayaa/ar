@@ -97,11 +97,10 @@ class _ArWidgetState extends State<ArWidget> {
         // Add note to anchor
         var newNode = ARNode(
           type: NodeType.localGLTF2,
-          uri: "Models/lin/lieutenantHead.gltf",
-          scale: Vector3(5, 5, 5),
-          position: Vector3(0, 0.0, 0),
-          rotation: Vector4(0.1, 0, 0, 0),
-          eulerAngles: Vector3(2, 0, 0),
+          uri: "Models/Set2.glb",
+          // scale: Vector3(0.2, 0.2, 0.2),
+          // position: Vector3(0.0, 0.0, 0.0),
+          // rotation: Vector4(1.0, 0.0, 0.0, 0.0),
         );
         bool? didAddNodeToAnchor = await arObjectManager.addNode(
           newNode,

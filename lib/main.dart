@@ -4,7 +4,7 @@ import 'package:ar_flutter_plugin/ar_flutter_plugin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'examples/ar_widget.dart';
+import 'widgets/ar_widget.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
